@@ -4,9 +4,9 @@
 
 ## 1. Sign up for Vultr
 
-Are you looking for a reliable VPS service? Try [Vultr](https://www.vultr.com/?ref=8218452)! With top-notch performance and a wide range of server locations, Vultr makes it easy to deploy your applications.
+Are you looking for a reliable VPS service? Try [Vultr](https://www.vultr.com/?ref=9024089)! With top-notch performance and a wide range of server locations, Vultr makes it easy to deploy your applications.
 
-👉 [Get started now!](https://www.vultr.com/?ref=8218452)
+👉 [Get started now!](https://www.vultr.com/?ref=9024089)
 
 ## 2. Create an Ubuntu Server on Vultr and Log In via SSH
 
