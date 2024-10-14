@@ -114,6 +114,7 @@ This guide explains how to point your Namecheap domain to your Vultr server.
 
 To check if your domain is set up correctly, run the following command in your terminal or command prompt:
 
+```bash
 ping yourdomain.com
 
 Replace `yourdomain.com` with your actual domain name. If you see your server's IP address in the response, your setup is successful!
