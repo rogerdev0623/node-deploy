@@ -8,8 +8,9 @@ Are you looking for a reliable VPS service? Try [Vultr](https://www.vultr.com/?r
 
 👉 [Get started now!](https://www.vultr.com/?ref=8218452)
 
-## 2. Create an Ubuntu Server on Vultr and Log In via SSH. Example: Ubuntu 22.04
+## 2. Create an Ubuntu Server on Vultr and Log In via SSH
 
+### Example: Ubuntu 22.04
 I will be using the root user, but would suggest creating a new user
 
 ## 3. Install Node/NPM
