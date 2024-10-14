@@ -94,7 +94,7 @@ sudo service nginx restart
 
 ## 9. Pointing Your Namecheap Domain to Your Server's IP
 
-This guide explains how to point your Namecheap domain to your Vultr server.
+Point your Namecheap domain to your Vultr server using @ and www
 
 ### Step 1: Add A Records
 
