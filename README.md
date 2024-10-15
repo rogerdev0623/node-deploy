@@ -15,7 +15,7 @@ I will be using the root user, but would suggest creating a new user
 
 ## 3. Install Node/NPM
 ```
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 
 sudo apt install nodejs
 
@@ -71,15 +71,20 @@ sudo nano /etc/nginx/sites-available/default
 ```
 Add the following to the location part of the server block
 ```
-    server_name yourdomain.com www.yourdomain.com;
+    server {
+        listen 80; # Listen on port 80
+        listen [::]:80; # Listen on port 80 for ipv6
 
-    location / {
-        proxy_pass http://localhost:3000; #whatever port your app runs on
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
+        server_name yourdomain.com www.yourdomain.com;
+
+        location / {
+            proxy_pass http://localhost:3000; #whatever port your app runs on
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+        }
     }
 ```
 ```
@@ -103,10 +108,12 @@ Point your Namecheap domain to your Vultr server using @ and www
 3. Click on the **Advanced DNS** tab.
 4. Add the following A records:
 
-   - **Host:** @  
+   - **Type:** A Record
+     **Host:** @  
      **Value:** [Your Server's IP]
    
-   - **Host:** www  
+   - **Type:** A Record
+     **Host:** www  
      **Value:** [Your Server's IP]
 
 5. Save changes and wait for DNS propagation.
