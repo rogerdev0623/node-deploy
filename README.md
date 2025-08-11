@@ -2,13 +2,11 @@
 
 > Steps to deploy a Node.js app to Vultr using PM2, NGINX as a reverse proxy and an SSL from LetsEncrypt on Ubuntu
 
-## 1. Sign up for Vultr
+## 1. Sign Up for ScalaHosting VPS
+If you are looking for a reliable and powerful VPS service, consider [ScalaHosting VPS](https://www.scalahosting.com/cloud-servers.html#a_aid=rogerphandev&amp;a_bid=5c412908). Their cloud servers offer high performance, excellent uptime, and easy scalability.
 
-Are you looking for a reliable VPS service? Try [Vultr](https://www.vultr.com/?ref=9024089)! With top-notch performance and a wide range of server locations, Vultr makes it easy to deploy your applications.
-
-👉 [Get started now!](https://www.vultr.com/?ref=9024089)
-
-## 2. Create an Ubuntu Server on Vultr and Log In via SSH
+👉 [Get started now!](https://www.scalahosting.com/cloud-servers.html#a_aid=rogerphandev&amp;a_bid=5c412908)
+## 2. Create an Ubuntu Server on ScalaHosting VPS and Log In via SSH
 
 ### Example: Ubuntu 22.04
 I will be using the root user, but would suggest creating a new user
