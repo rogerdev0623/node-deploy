@@ -1,6 +1,6 @@
 # Node.js Deployment
 
-> Steps to deploy a Node.js app to Vultr using PM2, NGINX as a reverse proxy and an SSL from LetsEncrypt on Ubuntu
+> Steps to deploy a Node.js app to ScalaHosting VPS using PM2, NGINX as a reverse proxy and an SSL from LetsEncrypt on Ubuntu
 
 ## 1. Sign Up for ScalaHosting VPS
 If you are looking for a reliable and powerful VPS service, consider [ScalaHosting VPS](https://www.scalahosting.com/cloud-servers.html#a_aid=rogerphandev&amp;a_bid=5c412908). Their cloud servers offer high performance, excellent uptime, and easy scalability.
