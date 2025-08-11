@@ -97,7 +97,7 @@ sudo service nginx restart
 
 ## 9. Pointing Your Namecheap Domain to Your Server's IP
 
-Point your Namecheap domain to your Vultr server using @ and www
+Point your Namecheap domain to your ScalaHosting VPS server using @ and www
 
 ### Step 1: Add A Records
 
